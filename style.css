@@ -2,3 +2,120 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: antiquewhite;
+}
+
+.hidden {
+    display: none !important;
+}
+
+section#start {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+p#welcome {
+    align-self: end;
+    justify-self: center;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    font-size: 36px;
+}
+
+div#logo {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+p#main-logo {
+    font-family: 'Reenie Beanie';
+    font-size: 64px;
+}
+
+p#byline {
+    text-align: right;
+    font-size: 12px;
+}
+
+button {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    align-self: start;
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    background-color: coral;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+section#login {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+p#signin-text {
+    font-size: 24px;
+    align-self: end;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+form {
+    font-family: 'Roboto';
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input#submit {
+    width: 40%;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    align-self: center;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 24px;
+    background-color: coral;
+    border-radius: 25px;
+}
+
+input#submit:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
