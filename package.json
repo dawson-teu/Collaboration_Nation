@@ -1,0 +1,22 @@
+{
+    "name": "collaboration_nation",
+    "version": "1.0.0",
+    "description": "A repository for our Collaboration Nation, our team's project for PTC Hacks CodeAgainstCovid",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dawson-teu/Collaboration_Nation.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dawson-teu/Collaboration_Nation/issues"
+    },
+    "homepage": "https://github.com/dawson-teu/Collaboration_Nation#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

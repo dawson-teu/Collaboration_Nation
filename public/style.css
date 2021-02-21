@@ -5,13 +5,10 @@
 
 body {
     background-color: antiquewhite;
+    font-family: 'Roboto';
 }
 
-.hidden {
-    display: none !important;
-}
-
-section {
+main {
     display: grid;
     grid-template-columns: 25% 1fr 25%;
     grid-template-rows: repeat(3, 1fr);
@@ -19,10 +16,6 @@ section {
     height: 100vh;
     align-items: center;
     justify-items: center;
-}
-
-p {
-    font-family: 'Roboto';
 }
 
 p#welcome {
@@ -48,10 +41,13 @@ p#byline {
     font-size: 12px;
 }
 
-button {
+a#continue-button {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     align-self: start;
+}
+
+button {
     border: none;
     padding: 15px;
     font-size: 24px;
@@ -71,8 +67,13 @@ p#signin-text {
     grid-column: 2 / 3;
 }
 
+a#login-account {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    align-self: start;
+}
+
 form {
-    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     grid-row: 2 / 3;
